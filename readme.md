@@ -1,6 +1,9 @@
 <section>
+<a href="http://desafiolatam.com"><img src="http://blog.desafiolatam.com/wp-content/uploads/2015/03/logo_latam_mini.png" width="100" style="float:right"></a>
 
 # Actividad Presencial 2 HTML a Wordpress.
+
+<https://github.com/DesafioLatam/Blearning-Frontend-E22CP1A1>
 
 Lo contacta un cliente muy preocupado porque su webmaster no le responde y no puede modificar su sitio web que está en HTML/CSS.
 
@@ -9,14 +12,14 @@ Usted le recomienda que para que no vuelva a tener este problema nuevamente que 
 Su cliente tiene una amigo "experto en Wordpress" que le recomendó que:
 
 - Los post "New Projects" de la página de inicio sean un Custom Post Type. El mismo contenido se despliega en la página Gallery
-- No quiere usar las entradas por defecto de Wordpress, por lo que le pide crear un Custom Post Type Blog, para esa página y se despliega en Our Updates. 
-- Los botones *More* deben ir a la página Blog o Galería correspondiente.
+- Para el Blog utilizar las entradas por defecto de WP, se despliegan en Our Updates de la página de inicio también. 
+- Los botones *More* que se encuentran en la página de inicio deben ir a la página Blog o Galería correspondiente.
 - About Us y Contact deben ser páginas de Wordpress.
 
 > HINT: Por una restricción de tiempo entregada por el cliente y para simplificar el desarrollo, el contenido de la página individual se pegará directamente en el editor de la página de Wordpress primero. En caso de contar con tiempo extra, lo transformaremos en un Page Template.
 
 - Ellos tienen un CRM, por lo que su equipo de desarrollo interno se preocupará del formulario de contacto. Se debe dejar en HTML.
-- Template Design, Digital Marketing y Social Media de la página de inicio serán páginas de Wordpress, cuyo contenido e imagen destacada son los que se muestran en el Home. Tanto el botón como la imagen deben que estar vinculadas a la página de contacto.
 
+> ADVANCED Usar la función `get_template_part()` para traer desde otro archivo el contenido de las seccciones Template Design, Digital Marketing y Social Media, que se encuentran en la página de inicio. Tanto el botón como la imagen deben que estar vinculadas a la página de contacto.
 
-
+> ADVANCED: En esta etapa no utilizaremos el Menú de WP, sino que los hipervínculos los dejaremos en los archivos de la plantilla. Si tiene tiempo puede investigar como desarrollar esta etapa. La próxima semana lo veremos en detalle. 
