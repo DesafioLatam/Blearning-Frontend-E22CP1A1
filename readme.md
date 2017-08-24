@@ -16,10 +16,11 @@ Su cliente tiene una amigo "experto en Wordpress" que le recomendó que:
 - Los botones *More* que se encuentran en la página de inicio deben ir a la página Blog o Galería correspondiente.
 - About Us y Contact deben ser páginas de Wordpress.
 
-> HINT: Por una restricción de tiempo entregada por el cliente y para simplificar el desarrollo, el contenido de la página individual se pegará directamente en el editor de la página de Wordpress primero. En caso de contar con tiempo extra, lo transformaremos en un Page Template.
+> HINT: Por una restricción de tiempo entregada por el cliente y para simplificar el desarrollo, el contenido de la página individual se pegará directamente en la adminitración de la página de Wordpress. Si te sientes más cómodo puedes crear la plantilla page-slug.php o page-id.php
 
 - Ellos tienen un CRM, por lo que su equipo de desarrollo interno se preocupará del formulario de contacto. Se debe dejar en HTML.
 
-> AVANZADO: Usar la función `get_template_part()` para traer desde otro archivo el contenido de las seccciones Template Design, Digital Marketing y Social Media, que se encuentran en la página de inicio. Tanto el botón como la imagen deben que estar vinculadas a la página de contacto.
+##¿Con tiempo todavía?
+- Usar la función `get_template_part()` para traer desde otro archivo el contenido de las seccciones Template Design, Digital Marketing y Social Media, que se encuentran en la página de inicio. Tanto el botón como la imagen deben que estar vinculadas a la página de contacto.
 
-> AVANZADO: En esta etapa no utilizaremos el Menú de WP, sino que los hipervínculos los dejaremos en los archivos de la plantilla. Si tiene tiempo puede investigar como desarrollar esta etapa. La próxima semana lo veremos en detalle. 
+- En esta etapa no utilizaremos el Menú de WP. Los hipervínculos los dejaremos en los archivos de la plantilla. Si tiene tiempo puede investigar como desarrollar esta etapa. La próxima semana lo veremos en detalle. 
