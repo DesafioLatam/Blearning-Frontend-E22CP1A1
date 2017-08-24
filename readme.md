@@ -20,7 +20,9 @@ Su cliente tiene una amigo "experto en Wordpress" que le recomendó que:
 
 - Ellos tienen un CRM, por lo que su equipo de desarrollo interno se preocupará del formulario de contacto. Se debe dejar en HTML.
 
-##¿Con tiempo todavía?
+
+###¿Con tiempo todavía?
+
 - Usar la función `get_template_part()` para traer desde otro archivo el contenido de las seccciones Template Design, Digital Marketing y Social Media, que se encuentran en la página de inicio. Tanto el botón como la imagen deben que estar vinculadas a la página de contacto.
 
 - En esta etapa no utilizaremos el Menú de WP. Los hipervínculos los dejaremos en los archivos de la plantilla. Si tiene tiempo puede investigar como desarrollar esta etapa. La próxima semana lo veremos en detalle. 
